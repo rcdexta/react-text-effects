@@ -3032,9 +3032,9 @@ github-url-from-username-repo@^1.0.0:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/github-url-from-username-repo/-/github-url-from-username-repo-1.0.2.tgz#7dd79330d2abe69c10c2cef79714c97215791dfa"
 
-github@^7.0.0:
-  version "7.2.0"
-  resolved "https://registry.yarnpkg.com/github/-/github-7.2.0.tgz#6d9133479ce67ed1af4997a6b51faeee81bf6059"
+github@^8.0.0:
+  version "8.2.1"
+  resolved "https://registry.yarnpkg.com/github/-/github-8.2.1.tgz#616b2211fbcd1cc8631669aed67653e62eb53816"
   dependencies:
     follow-redirects "0.0.7"
     https-proxy-agent "^1.0.0"
@@ -4552,11 +4552,18 @@ nomnomnomnom@^2.0.0:
     chalk "~0.4.0"
     underscore "~1.6.0"
 
-"nopt@2 || 3", nopt@3.x, nopt@^3.0.3, nopt@~3.0.1, nopt@~3.0.6:
+"nopt@2 || 3", nopt@3.x, nopt@~3.0.1, nopt@~3.0.6:
   version "3.0.6"
   resolved "https://registry.yarnpkg.com/nopt/-/nopt-3.0.6.tgz#c6465dbf08abcd4db359317f79ac68a646b28ff9"
   dependencies:
     abbrev "1"
+
+nopt@^4.0.0:
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/nopt/-/nopt-4.0.1.tgz#d0d4685afd5415193c8c7505602d0d17cd64474d"
+  dependencies:
+    abbrev "1"
+    osenv "^0.1.4"
 
 normalize-package-data@^1.0.3:
   version "1.0.3"
@@ -4790,7 +4797,7 @@ os-tmpdir@^1.0.0, os-tmpdir@^1.0.1, os-tmpdir@~1.0.1:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/os-tmpdir/-/os-tmpdir-1.0.2.tgz#bbe67406c79aa85c5cfec766fe5734555dfa1274"
 
-osenv@0, osenv@^0.1.0:
+osenv@0, osenv@^0.1.0, osenv@^0.1.4:
   version "0.1.4"
   resolved "https://registry.yarnpkg.com/osenv/-/osenv-0.1.4.tgz#42fe6d5953df06c8064be6f176c3d05aaaa34644"
   dependencies:
@@ -5923,9 +5930,9 @@ sax@^1.2.1, sax@~1.2.1:
   version "1.2.1"
   resolved "https://registry.yarnpkg.com/sax/-/sax-1.2.1.tgz#7b8e656190b228e81a66aea748480d828cd2d37a"
 
-semantic-release@^6.3.2:
-  version "6.3.5"
-  resolved "https://registry.yarnpkg.com/semantic-release/-/semantic-release-6.3.5.tgz#6e3559b7490a4f79df9cdccca24f849f0a13640e"
+semantic-release@6.3.6:
+  version "6.3.6"
+  resolved "https://registry.yarnpkg.com/semantic-release/-/semantic-release-6.3.6.tgz#629d0aec90b38a2957a57a4a9ee1214af51928c7"
   dependencies:
     "@semantic-release/commit-analyzer" "^2.0.0"
     "@semantic-release/condition-travis" "^5.0.2"
@@ -5933,10 +5940,10 @@ semantic-release@^6.3.2:
     "@semantic-release/last-release-npm" "^1.2.1"
     "@semantic-release/release-notes-generator" "^2.0.0"
     git-head "^1.2.1"
-    github "^7.0.0"
+    github "^8.0.0"
     lodash "^4.0.0"
     nerf-dart "^1.0.0"
-    nopt "^3.0.3"
+    nopt "^4.0.0"
     normalize-package-data "^2.3.4"
     npmconf "^2.1.2"
     npmlog "^4.0.0"

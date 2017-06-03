@@ -1,6 +1,6 @@
 {
-  "name": "react-component-boilerplate",
-  "description": "A boilerplate to create React components using react-transform-hmr, Babel 6, webpack and SASS",
+  "name": "react-text-effects",
+  "description": "React components for common text effects",
   "main": "dist/index.js",
   "jsnext:main": "components/index.js",
   "module": "components/index.js",
@@ -25,17 +25,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ritz078/react-component-boilerplate.git"
+    "url": "https://github.com/rcdexta/react-text-effects.git"
   },
   "keywords": [
     "react-component-keywords"
   ],
-  "author": "Ritesh Kumar",
+  "author": "RC",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/ritz078/react-component-boilerplate/issues"
-  },
-  "homepage": "https://github.com/ritz078/react-component-boilerplate",
+  "homepage": "https://github.com/rcdexta/react-text-effects",
   "devDependencies": {
     "@kadira/storybook": "^2.35.3",
     "@kadira/storybook-addon-actions": "^1.1.1",
@@ -69,7 +66,7 @@
     "react-addons-test-utils": "^15.4.2",
     "rimraf": "^2.6.1",
     "sass-loader": "^6.0.3",
-    "semantic-release": "^6.3.2",
+    "semantic-release": "6.3.6",
     "sinon": "^2.0.0",
     "webpack": "^2.2.1"
   },
