@@ -14,6 +14,10 @@ or if you are using `yarn`
 $ yarn add react-text-effects
 ```
 
+### Demo
+
+https://react-text-effects.surge.sh/
+
 ### License
 
 MIT
