@@ -1,0 +1,13 @@
+.App {
+  text-align: center;
+}
+
+
+.App-intro {
+  font-size: large;
+  margin: 0 auto;
+  max-width: 100%;
+  width: 64rem;
+  padding: 1.25rem 1.25rem 6.25rem;
+  text-align: center;
+}
