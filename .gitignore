@@ -10,3 +10,4 @@ examples/style.css
 npm-debug.log
 
 demo/node_modules
+demo/build
